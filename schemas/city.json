@@ -1,0 +1,16 @@
+{
+    "required": [
+      "city",
+      "country_id"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "city": {
+        "type": "string",
+        "minLength": 3
+      },
+      "country_id": {
+        "type": "integer"
+      }
+    }
+  }

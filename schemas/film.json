@@ -1,0 +1,20 @@
+{
+  "required": [
+    "title",
+    "language_id",
+    "release_year"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "language_id": {
+      "type": "integer"
+    },
+    "release_year": {
+      "type": "integer"
+    }
+  }
+}
